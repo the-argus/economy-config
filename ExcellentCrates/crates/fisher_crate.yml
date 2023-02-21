@@ -1,0 +1,43 @@
+Name: '&bFisher_crate Crate'
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids:
+  - n/a
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&l&bFISHER_CRATE CRATE'
+    - '&7Buy a key at &cwww.myserver.com'
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Rewards:
+  List:
+    example:
+      Name: '&aExample Reward'
+      Chance: 25.0
+      Broadcast: false
+      Win_Limits:
+        Amount: -1
+        Cooldown: 0
+      Preview: 2g0004000j9cg012rb9dpim6sj1cpq3kpbdclp62r340400agrfeln78080
+      Commands: []
+      Items: []
+      Ignored_For_Permissions: []
+Item:
+  Material: ENDER_CHEST

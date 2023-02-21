@@ -1,4 +1,82 @@
 *.jar
 *.tar.gz
 
+*.zip
+
+*.sqlite
+*.db
+
 *license*
+
+WorldEdit/.archive-unpack/
+
+WorldEdit/schematics/
+*.schematic
+
+AsyncWorldEdit/undo/
+AsyncWorldEdit/installed
+
+spark/tmp/
+
+ProtocolLib/lastupdate
+
+PlayTime/userdata.json
+
+# might be good to track this if we change it
+NexEngine/lang/*
+!NexEngine/lang/messages_en.yml
+
+mcMMO/flatfile/
+mcMMO/locales/
+mcMMO/backup/
+
+LuckPerms/translations/
+# may need to be tracked in the future, but I saw some people on github
+# recommending to delete it if you have problems so it's probably temp
+LuckPerms/libs/
+
+Jobs/TranslatableWords/*
+# this only has two lines that we might ever even want to change
+#!Jobs/TranslatableWords/Words_en.yml
+Jobs/locale/*
+!Jobs/locale/messages_en.yml
+
+FastAsyncWorldEdit/clipboard/
+FastAsyncWorldEdit/history/
+FastAsyncWorldEdit/lang/
+FastAsyncWorldEdit/schematics/
+
+ExcellentCrates/lang/*
+!ExcellentCrates/lang/messages_en.yml
+
+Essentials/userdata/
+Essentials/userdata-npc-backup/
+Essentials/warps/
+Essentials/usermap.csv
+
+EconomyShopGUI/LanguageFiles/*
+!EconomyShopGUI/LanguageFiles/lang-en.yml
+EconomyShopGUI/transaction-log.txt
+
+# these might be fun to change
+# DecentHolograms/lang.yml
+# CoreProtect/language.yml
+
+CMILib/Translations/*
+!CMILib/Translations/Local_EN.yml
+
+Citizens/lib/
+Citizens/saves.yml
+Citizens/shops.yml
+
+BetterRTP/data/
+BetterRTP/lang/*
+!BetterRTP/lang/en.yml
+
+AureliumSkills/backups/
+AureliumSkills/messages/*.yml
+!AureliumSkills/messages/messages_en.yml
+AureliumSkills/playerdata/
+
+*.jar.dis
+AsyncWorldEdit/plugins/

@@ -1,0 +1,45 @@
+CubCustomDrops:
+  mobNames:
+    key:
+      '0': §aBlaze
+      '1': §aBat
+    get:
+      '0':
+        Name: §aBlaze
+        CustomDrops:
+          '0':
+            Drop:
+              ==: org.bukkit.inventory.ItemStack
+              v: 3218
+              type: STONE_PICKAXE
+            SpawnerDrop: false
+            EggDrop: false
+            NaturalDrop: true
+            BredDrop: false
+            Effect: true
+            EffectColor:
+              ==: Color
+              RED: 0
+              BLUE: 0
+              GREEN: 255
+            DropChance: 10
+            WorldOverride: false
+      '1':
+        Name: §aBat
+  globalSettings:
+    LootingMultiplier: false
+    LootingAll: false
+    LootingM: 15
+    LootingA: 10
+    FortuneMultiplier: false
+    FortuneAll: false
+    FortuneM: 15
+    FortuneA: 10
+    GlobalWorlds:
+      '0': world
+      '1': world_nether
+      '2': world_the_end
+      '3': lobby
+      '4': survival
+    LoadedOnce: true
+  afkFarm: false

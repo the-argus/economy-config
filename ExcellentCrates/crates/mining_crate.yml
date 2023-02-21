@@ -1,0 +1,29 @@
+Name: Miners Crate
+Preview_Config: default
+Permission_Required: false
+Attached_Citizens: ''
+Opening:
+  Cooldown: 0
+  Cost:
+    MONEY: 0.0
+    EXP: 0.0
+Key:
+  Ids: []
+Block:
+  Locations: []
+  Pushback:
+    Enabled: true
+  Hologram:
+    Enabled: false
+    Offset:
+      Y: 1.5
+    Text:
+    - '&c&l&bMINING_CRATE CRATE'
+    - '&7Buy a key at &cwww.myserver.com'
+  Effect:
+    Model: HELIX
+    Particle:
+      Name: FLAME
+      Data: ''
+Item:
+  Material: ENDER_CHEST
