@@ -403,7 +403,7 @@ default-rule:
 # +                                                                                          +LM3
 # +-------------------------------------------------------------------------------------------LM3
 custom-rules:
-  - enabled: true
+  - enabled: false
     name: 'CR - NoLevel All Passive + EntityTypes'
     use-preset: allowed_worlds
     conditions:
@@ -413,7 +413,7 @@ custom-rules:
     apply-settings:
       maxLevel: 0
 
-  - enabled: true
+  - enabled: false
     name: 'CR - Custom Nether Levelling'
     conditions:
       worlds: 'world_nether'
@@ -423,7 +423,7 @@ custom-rules:
         end: 40
         period: 0
 
-  - enabled: true
+  - enabled: false
     name: 'CR - Custom Entity Attributes'
     use-preset: allowed_worlds
     apply-settings:
@@ -440,7 +440,7 @@ custom-rules:
           WITHER_SKELETON:
             max-health: 1.0
 
-  - enabled: true
+  - enabled: false
     name: 'CR - Custom Zombie Piglin Levelling'
     conditions:
       worlds: 'world_nether'
